@@ -1,0 +1,53 @@
+body{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+input{
+    border: 4px solid white;
+    width: 250px;
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 40px;
+}
+.loginbtn{
+    position: relative;
+    top: 20px;
+    background-color: rgb(28, 183, 113);
+    border-radius: 15px;
+    width: 200px;
+    left: 15%;
+    padding: 10px;
+    font-weight: 800;
+    border: 3px solid black;
+    transition: transform 0.3s ease;
+}
+
+.loginbtn:hover{
+   transform: scale(1.2);
+}
+
+.headingf{
+    position: relative;
+    top: 50px;
+    left: 15%;
+}
+.headingf:hover{
+    cursor: pointer;
+}
+
+.login{
+    border-radius: 15px;
+}
+
+.officerlogin{
+    height: 440px;
+    border-radius: 15px;
+}

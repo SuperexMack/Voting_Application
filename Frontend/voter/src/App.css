@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portal-heading{
+    position: relative;
+    left: 40%;
+    width: 460px;
+    font-weight: 700;
+    top: 150px;
+}

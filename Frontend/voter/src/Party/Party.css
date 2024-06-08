@@ -1,0 +1,61 @@
+.main-box{
+    height: 500px;
+    width: 90%;
+    /* background-color: blue; */
+    position: relative;
+    top: 170px;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.first{
+   height: 400px;
+   /* background-color: black; */
+   flex: 1 1 400px;
+}
+
+.second{
+   height: 400px;
+   /* background-color: red; */
+   flex: 1 1 400px;
+}
+
+.third{
+   height: 400px;
+   /* background-color: orange; */
+   flex: 1 1 400px;    
+}
+
+.aamaadmi{
+    position: relative;
+    left: 30%;
+}
+
+.aamHead{
+    position: relative;
+    left: 30%;
+    /* color: white; */
+}
+
+.btn{
+    background-color: rgb(12, 228, 109);
+    width: 300px;
+    position: relative;
+    left: 15%;
+    border-radius: 15px;
+    height: 50px;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+   
+}
+
+.btn:hover{
+    transform: scale(1.13);
+    box-shadow: 0px 0px 50px rgb(32, 8, 8);
+}
